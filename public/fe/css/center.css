@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+ .loginout{
+    display: block;
+    width: 90%;
+    padding:5px 0;
+    background-color: #fff;
+    text-align: center;
+    margin:30px auto;
+    color:#000;
+}

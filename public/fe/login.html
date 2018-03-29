@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="" href="./css/reset.css">
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./lib/mui/css/mui.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--头部-->
+    <header class="mui-bar mui-bar-nav lt-header">
+        <a class=" fa fa-arrow-left sort-icon"></a>
+        <a id="search" class="fa fa-search mui-pull-right lt-header-search mui-pull-left mui-plus-visible"></a>
+        <h1 class="mui-title lt-header-title">登录</h1>
+    </header>
+    <!--中间-->
+
+
+
+    <div class="mui-content change">
+        <form id="form">
+            <div class="mui-input-row mui-password">
+                <input type="text" name="username" placeholder="用户名/手机号" class="mui-input-loginName mui-password" data-input-password="3">
+            </div>
+            <div class="mui-input-row mui-password">
+                <input type="password" name="password" placeholder="密码" class="mui-input-password  mui-password" ><span class="mui-icon mui-icon-eye"></span>
+            </div>
+        </form>
+
+        <a href="javascript:;" class="login">登录</a>
+        <a href="zhuce.html" class="confirm">免费注册</a>
+    </div>
+
+
+    <!--
+    <a href="javascript:;" class="loginout">退出登录</a>-->
+
+    <!--底部v-->
+    <nav class="mui-bar mui-bar-tab lt-footer">
+        <a class="mui-item " href="index.html">
+            <span class="fa fa-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-item" href="sort.html">
+            <span class="fa fa-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-item" href="shopping.html">
+            <span class="fa fa-shopping-cart"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-item  " href="center.html">
+            <span class="fa fa-user"></span>
+            <span class="mui-tab-label ">会员中心</span>
+        </a>
+    </nav>
+    <script src="./lib/zepto-notouch/zepto.min.js"></script>
+    <script src="./lib/mui/js/mui.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

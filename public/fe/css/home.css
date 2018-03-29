@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.mui-content{
+    background-color: #fff;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+    white-space: unset;
+}
+.address{
+    font-size: 14px;
+}
+.add{
+    text-align: center;
+    padding:10px 0;
+    font-size: 14px;
+}
+p{
+    font-size: 12px;
+    color:#999;
+}

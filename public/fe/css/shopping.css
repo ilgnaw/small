@@ -1,0 +1,263 @@
+/**{
+    box-sizing: border-box;
+}*/
+/*.mui-content{
+width: 100%;
+background-color: #fff;
+
+}
+.mui-content ul{
+    width: 100%;
+    padding:11px 15px;*/
+    /*background-color: tomato;*/
+  
+/*}*/
+
+/*.mui-content li{
+    overflow: hidden;
+}
+.mui-content li a {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.mui-content ul li img{
+    width: 60px;
+    height: 60px;
+}
+.first{
+    float: left;
+}
+.first input{
+display: block;
+margin-top:12px;
+margin-left:10px;
+}
+.two{
+    float: right;
+    width: 78%;
+}
+.two .detall{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+
+    font-size: 14px;
+
+}*/
+
+/*.mui-table-view-cell>a:not(.mui-btn){
+    white-space: unset;
+}
+.mui-bar-nav~.mui-content{
+    padding-top:44px;;*/
+    /*height: 100%;*/
+/*}
+li {
+    position: relative;
+}
+.num{
+    font-size: 12px;
+}
+ input{
+position: absolute;
+left:20px;
+bottom: 15px;
+}
+.text span{
+    font-size: 12px;
+    color:#ccc;
+}
+ .text span:nth-child(1){*/
+    /*color:red;
+}
+.text span:nth-child(2){
+    text-decoration: line-through;
+}
+ .text span:nth-child(3){
+    float: right;
+    margin-right:20px;
+}
+ .text span:nth-child(3):after{
+    content:"";
+    */
+/*}*/
+/*.two>p{
+    font-size: 12px;
+}*/
+/*.mui-content ul li div{
+    transform: translateX(100%);
+
+}*/
+/*.mui-content .transform{
+    width: 50%;
+    text-align: center;
+      transform: translateX(100%);
+
+}
+.mui-content .transform a {
+    display: inline-block;
+width: 50%;
+}*/
+/*.content{
+    position: relative;
+   
+    height: 100%;
+}*/
+/*.mon{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;*/
+    /*position: absolute;
+    bottom:45px;
+    left: 0;*/
+/*}*/
+/*.mon button{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    line-height: 16px;
+    background-color: tomato;
+    right: 0;
+    top: 0;
+
+}*/
+/*.icon{
+    position: absolute;
+    right: 5px;
+    bottom:50px;
+}*/
+
+
+.goods {
+  display: flex;
+  width: 100%;
+}
+
+.goods-left {
+  width: 60px;
+}
+
+.goods-left a {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+.goods-left img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.goods-right {
+  flex: 1;
+  padding: 0 5px;
+}
+
+.goods-right p {
+  color: #666;
+}
+
+.goods-right-extra {
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.goods-right-extra .extra-new {
+  color: red;
+}
+
+.goods-right-extra .extra-old {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.goods-right-extra .extra-num {
+  float: right;
+  color: #aaa;
+}
+
+.goods-right-size {
+  font-size: 12px;
+  color: #999;
+}
+
+.edit {
+  width: 100%;
+  text-align: left;
+}
+.edit-size {
+  width: 100%;
+  padding: 15px 5px;
+}
+
+.edit-size span {
+  border: 1px solid #ccc;
+  padding: 5px;
+  padding-top: 6px;
+  line-height: 3;
+  font-size: 12px;
+}
+
+.edit-size span.active {
+  background-color: orangered;
+  color: #fff;
+}
+
+.edit-num {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.edit-num span {
+  font-size: 12px;
+}
+
+.edit-num  .mui-numbox {
+  height: 23px;
+  padding: 0 30px;
+}
+
+.edit-num  .mui-numbox .mui-btn {
+  width: 30px;
+}
+.append{
+    text-align: left;
+}
+.product-size{
+    width: 100%;
+    padding: 15px 5px;
+    /*border-top:1px solid #ccc;*/
+}
+.product-size span{
+    border:1px solid #ccc;
+    padding: 4px;
+    padding-top: 6px;
+    line-height: 3;
+    font-size: 12px;
+}
+.active{
+    background-color: tomato;
+    color:#fff;
+}
+
+.product-num{
+    width: 100%;
+    padding:10px 5px;
+    /*border-top: 1px solid #ccc;*/
+}
+.product-num span{
+    font-size: 12px;
+}
+
+.product-num .mui-numbox {
+    height: 23px;
+    padding: 0 30px;
+}
+
+.product-num .mui-numbox .mui-btn{
+    width: 30px;
+}

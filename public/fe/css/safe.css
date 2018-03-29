@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.change{
+    padding:10px;
+    margin-top:10px;
+}
+
+.ren input{
+    padding:10px 10px;
+    /*box-shadow: 0 0 1px #ccc;*/
+    border:none;
+    padding-left:20px;
+    padding-right: 1px;
+}
+.ren a{
+    display: inline-block;
+   padding:10px 5px;
+    margin-left:10px;
+    background-color: #007aff;
+    color:#fff;
+    border-radius: 3px;
+    /*padding:0 5px;*/
+}
+.confirm{
+    width: 98%;
+    padding:5px 0;
+    text-align: center;
+    margin:30px auto;
+    display: block;
+    background-color: #007aff;
+    color:#fff;
+}

@@ -1,0 +1,169 @@
+/*.lt-header{
+    background-color: #006699;
+}
+.lt-header-title{
+    color:#fff;
+}
+.lt-header-search{
+    font-size: 20px;
+    line-height: 44px;
+    color:#fff;
+}*/
+
+
+
+.brand {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.brand ul {
+  width: 100%;
+  overflow: hidden;
+}
+.brand ul li {
+  float: left;
+  width: 33.3333333%;
+}
+.brand ul li a {
+  display: block;
+  width: 100%;
+}
+.brand ul li a img {
+  width: 100%;
+}
+.free {
+  margin-top: 10px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.free a {
+  display: inline-block;
+}
+.free a:nth-child(1),
+.free a:nth-child(3) {
+  float: left;
+  width: 67.1%;
+}
+.free a:nth-child(2) {
+  width: 32.9%;
+  float: right;
+}
+.free a:nth-child(2n+1) img {
+  width: 50%;
+  float: left;
+}
+.free a:nth-child(2n) img {
+  width: 100%;
+  float: right;
+}
+.public {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  padding-top: 10px;
+  background-color: #fff;
+}
+.public img {
+  width: 100%;
+}
+.brand-icon {
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.brand-icon ul {
+  width: 100%;
+  overflow: hidden;
+}
+.brand-icon ul li {
+  float: left;
+  width: 33.3333%;
+}
+.brand-icon ul li a {
+  display: block;
+  width: 100%;
+}
+.brand-icon ul li a img {
+  width: 100%;
+}
+.sheet {
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #fff;
+}
+.sheet a {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  padding: 0 5px;
+  float: left;
+  margin-bottom: 10px;
+}
+.sheet a div {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  /*box-shadow: 0 0 5px #ccc;
+  */
+  border:1px solid #ccc;
+  box-sizing: border-box;
+}
+.sheet a div img {
+  width: 100%;
+  vertical-align: middle;
+}
+.sheet a div p {
+  font-size: 16px;
+}
+.sheet a div .price {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+.sheet a div .price .new-price {
+  color: red;
+  margin-right: 10px;
+}
+.sheet a div button {
+  margin-top: 10px;
+  background-color: #006699;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+.foot{
+    margin-bottom:30px;
+}
+/*底部*/
+/*.lt-footer{
+    
+    background-color: #006699;
+}
+.lt-footer .mui-item {
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.lt-footer .mui-item.mui-active{
+    color:orange;
+}
+.lt-footer .mui-item .mui-icon{
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    padding-top: 0;
+    padding-bottom: 0
+}
+.lt-footer .mui-item span{
+    display: block;
+}*/

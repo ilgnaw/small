@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐淘云购</title>
+    <!--引入浏览器默认样式-->
+    <link rel="stylesheet" type="" href="../css/reset.css">
+    <!--引入字体图标库-->
+    <link rel="stylesheet" href="../lib/fontAwesome/css/font-awesome.css">
+    <!--引入MUI的css库-->
+    <link rel="stylesheet" href="../lib/mui/css/mui.min.css">
+    <!--引入当前页面的样式-->
+    <link rel="stylesheet" href="../css/detail.css">
+    <!--引入公共样式-->
+    <link rel="stylesheet" href="../css/common.css">
+    <!--引入网站的favicon-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!--1.头部-->
+    <header class="lt-header mui-bar mui-bar-nav">
+        <a href="javascript:history.back();" class="fa fa-arrow-left mui-pull-left lt-header-back"></a>
+        <a href="./index.html" id="search" class="fa fa-home mui-pull-right lt-header-home"></a>
+        <h1 class="mui-title lt-header-title">商品详情</h1>
+    </header>
+    <!--2.底部-->
+    <nav class="mui-bar mui-bar-tab lt-detail-footer">
+        <span href="javascript:;" class="fa fa-shopping-cart product-shopping"></span>
+        <button class="product-cart">加入购物车</button>
+        <button class="product-buy">立即购买</button>
+    </nav>
+    <!--3.滚动区域-->
+    <div class="mui-content mui-scroll-wrapper">
+        <div class="mui-scroll">
+            <!--这里放置真实显示的DOM内容-->
+
+            <!--1.轮播图-->
+            <div id="slider" class="mui-slider">
+                <div class="mui-slider-group">
+                    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+                    <div class="mui-slider-item mui-slider-item-duplicate">
+                        <a href="#">
+                            <img src="../images/banner7.png">
+                        </a>
+                    </div>
+                    <!-- 第一张 -->
+                    <div class="mui-slider-item">
+                        <a href="#">
+                            <img src="../images/banner1.png">
+                        </a>
+                    </div>
+                    <!-- 第六张 -->
+                    <div class="mui-slider-item">
+                        <a href="#">
+                            <img src="../images/banner6.png">
+                        </a>
+                    </div>
+                    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+                    <div class="mui-slider-item mui-slider-item-duplicate">
+                        <a href="#">
+                            <img src="../images/banner1.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="mui-slider-indicator">
+                    <div class="mui-indicator mui-active"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                    <div class="mui-indicator"></div>
+                </div>
+            </div>
+            <!--2.商品名称-->
+            <p class="product-name">Spor飓风 NIKE休闲运动鞋Spor飓风 NIKE休闲运动鞋Spor飓风 NIKE休闲运动鞋Spor飓风 NIKE休闲运动鞋</p>
+            <!--3.价格-->
+            <div class="product-price">
+                <span>价格:</span>
+                <strong class="old">&yen;499.1</strong>
+                <small class="new">&yen;888.1</small>
+            </div>
+            <!--4.尺码-->
+            <div class="product-size">
+                尺码：<span>30</span>
+                <span>31</span>
+                <span>32</span>
+                <span>33</span>
+                <span>34</span>
+                <span>35</span>
+                <span>36</span>
+                <span>37</span>
+                <span>38</span>
+                <span>39</span>
+            </div>
+            <!--5.数量-->
+            <div class="product-num">
+                <span>数量</span>
+                <div class="mui-numbox" data-numbox-min='0' data-numbox-max='100'>
+                    <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+                    <input class="mui-numbox-input" type="number" />
+                    <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+                </div>
+                <span>剩余20件</span>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/template" id="temp">
+        <div id="slider" class="mui-slider">
+            <div class="mui-slider-group mui-slider-loop">
+                <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                    <a href="#">
+                            <img src="<%=pic[0].picAddr %>">
+                        </a>
+                </div>
+                <!-- 第一张 -->
+                <div class="mui-slider-item">
+                    <a href="#">
+                            <img src="<%=pic[0].picAddr %>">
+                        </a>
+                </div>
+
+                <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                    <a href="#">
+                            <img src="<%=pic[0].picAddr %>">
+                        </a>
+                </div>
+            </div>
+            <div class="mui-slider-indicator">
+                <div class="mui-indicator mui-active"></div>
+
+            </div>
+        </div>
+        <!--2.商品名称-->
+        <p class="product-name">
+            <%=proName %>
+        </p>
+        <!--3.价格-->
+        <div class="product-price">
+            <span>价格:</span>
+            <strong class="old">&yen;<%=oldPrice%></strong>
+            <small class="new">&yen;<%=price%></small>
+        </div>
+        <!--4.尺码-->
+        <div class="product-size">
+            尺码：<span>30</span>
+            <span>31</span>
+            <span>32</span>
+            <span>33</span>
+            <span>34</span>
+            <span>35</span>
+            <span>36</span>
+            <span>37</span>
+            <span>38</span>
+            <span>39</span>
+        </div>
+        <!--5.数量-->
+        <div class="product-num">
+            <span>数量</span>
+            <div class="mui-numbox" data-numbox-min='0' data-numbox-max='<%=num%>'>
+                <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+                <input class="mui-numbox-input" type="number" />
+                <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+            </div>
+            <span>剩余<%=num%>件</span>
+        </div>
+    </script>
+    <!--尺寸模板-->
+
+    <script type="text/template" id="size">
+        <div class="product-size">
+         
+            尺码：
+            <% for(var i=startNum;i<=endNum;i++){ %>
+                <span><%=i%></span>
+                <%}%>
+        </div>
+   
+    </script>
+
+    <!-- 引入移动端的jquery -->
+    <script src="../lib/zepto-notouch/zepto.min.js"></script>
+    <!-- 引入mui的js -->
+    <script src="../lib/mui/js/mui.min.js"></script>
+    <!--引入模板引擎-->
+    <script src="../lib/artTemplate/template-native.js"></script>
+    <!-- 引入当前页面的js -->
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>
